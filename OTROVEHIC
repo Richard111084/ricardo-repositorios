@@ -1,0 +1,7 @@
+#!/bin/bash
+
+suma_otrovehic=$(awk -F ',' '{sum+=21} END {print sum}' Accidentes_ags_2021.csv)
+
+echo "La suma de los datos de la columna 'OTROVEHIC' es: $suma_otrovehic"
+
+done
